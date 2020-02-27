@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Ecrã de Pedido de Password</title>
+    <link rel="stylesheet" href="css/stylepedidopasswd.css">
+
+</head>
+<body>
+    <a class="i" href="inicio.html"><b>viby</b></a>
+    <div class="pass-page">      
+    <div class="pass-box">
+            <h1>Reset Password</h1>
+            <b>Enter a new password:</b>
+            <i class="fa fa-eye" id="eye"></i>             
+        <div class="textbox">
+            <i class="fa fa-lock"></i>
+            <input type="password" id="pwd1" placeholder="New password" name="Pass" value="">
+        </div>
+        <div class="textbox">
+            <i class="fa fa-lock"></i>
+            <input type="password" id="pwd2" placeholder="Repeat new password" name="Pass" value="">
+        </div>
+
+        <script>
+            var pwd1 = document.getElementById('pwd1');
+            var pwd2 = document.getElementById('pwd2');
+            var eye = document.getElementById('eye');
+
+            eye.addEventListener('click',togglePass);
+
+            function togglePass(){
+                eye.classList.toggle('active');
+
+                (pwd1.type == 'password') ? pwd1.type = 'text' : pwd1.type= 'password';
+
+                (pwd2.type == 'password') ? pwd2.type = 'text' : pwd2.type= 'password';
+            }
+        </script>
+
+        <a class="btnsubmit" href="paginalogin.html">Submit</a>
+
+    </div> 
+</div>
+
+
+</body>
+</html>
