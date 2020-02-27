@@ -1,1 +1,2 @@
-# projetowebsite
+Este projeto tem como base a realização de um site, com o principal objetivo da criação de conteúdo digital. Os utilizadores têm acesso ao conteúdo em separadores diferentes do menu principal (Vídeos e fotos) e desta forma, podem fazer uma série de atividades como: seguir, comentar, avaliar e ver os trabalhos dos “Creators” (as pessoas que desenvolvem conteúdo para o website).
+O projeto também é composto por uma APP, desenvolvido principalmente para os “Creators”, com o objetivo de verificarem a situação atual do seu canal, em termos de estatísticas do seu conteúdo.
